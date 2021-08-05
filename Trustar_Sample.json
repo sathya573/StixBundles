@@ -1,0 +1,171 @@
+{
+  "id": "observed-data--00044018-9436-41c2-a245-1a4b71bb6f7e",
+  "type": "observed-data",
+  "created_by_ref": "identity--063aa4ae-528d-4ea3-994a-a59e15e1d5b1",
+  "created": "2021-02-23T07:21:53.582Z",
+  "modified": "2021-02-23T07:21:53.582Z",
+  "objects": {
+    "0": {
+      "type": "x-trustar-report",
+      "name": "Hit by malware",
+      "id": "00618551-1924-431d-8e05-ca8eeeec2dcb",
+      "created": 1517561071043,
+      "updated": "1517561080713",
+      "timeBegan": "1517561071028",
+      "distributionType": "enclave",
+      "enclaveIds": [
+        "012858f0-264b-11e8-b467-0ed5f89f718b"
+      ]
+    },
+    "1": {
+      "type": "malware",
+      "spec_version": "2.1",
+      "id": "UUID",
+      "created": "1565074829435",
+      "modified": "1565074829435",
+      "name": "LOCKY",
+      "description": "A variant of the cryptolocker family",
+      "malware_types": [
+        "ransomware"
+      ],
+      "is_family": false,
+      "x_malware_attributes": {
+        "malware_families": [
+          "njRAT",
+          "testMalwareFamily"
+        ],
+        "indicator_type": "campaign_id",
+        "relations_count": "20",
+        "malicious_confidence": "high"
+      }
+    },
+    "2": {
+      "type": "ipv4-addr",
+      "value": "9.30.116.81",
+      "id": "UUID",
+      "x_ipv4_attributes": {
+        "ip_address_types": [
+          "TorProxy",
+          "testIPType"
+        ],
+        "indicator_type": "ip_address",
+        "relations_count": "0",
+        "malicious_confidence": "high"
+      }
+    },
+    "3": {
+      "type": "ipv4-addr",
+      "value": "9.30.116.81/24",
+      "id": "UUID",
+      "x_ipv4_cidr_attributes": {
+        "ip_address_types": [
+          "TorProxy",
+          "testIPType"
+        ],
+        "indicator_type": "ip_address",
+        "relations_count": "0",
+        "malicious_confidence": "high"
+      }
+    },
+    "4": {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--0c7b5b88-8ff7-4a4d-aa9d-feb398cd0061",
+      "created": "2016-05-12T08:17:27.000Z",
+      "modified": "2016-05-12T08:17:27.000Z",
+      "name": "CVE-2016-1234",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2016-1234"
+        }
+      ],
+      "x_vulnerability_attributes": {
+        "vulnerability_families": [
+          "njRAT",
+          "testMalwareFamily"
+        ],
+        "indicator_type": "campaign_id",
+        "relations_count": "20",
+        "malicious_confidence": "high"
+      }
+    },
+    "5": {
+      "type": "email-addr",
+      "spec_version": "2.1",
+      "id": "email-addr--2d77a846-6264-5d51-b586-e43822ea1ea3",
+      "value": "john@example.com",
+      "x_email_addr_attributes": {
+        "email_addr_families": [
+          "njRAT",
+          "testMalwareFamily"
+        ],
+        "indicator_type": "campaign_id",
+        "relations_count": "20",
+        "malicious_confidence": "high"
+      }
+    },
+    "6": {
+      "type": "file",
+      "id": "file--e277603e-1060-5ad4-9937-c26c97f1ca68",
+      "hashes": {
+        "SHA-256": "fe90a7e910cb3a4739bed9180e807e93fa70c90f25a8915476f5e4bfbac681db"
+      },
+      "name": "foo.dll",
+      "x_file_attributes": {
+        "file_families": [
+          "njRAT",
+          "testMalwareFamily"
+        ],
+        "indicator_type": "campaign_id",
+        "relations_count": "20",
+        "malicious_confidence": "high"
+      }
+    },
+    "7": {
+      "type": "url",
+      "id": "url--c1477287-23ac-5971-a010-5c287877fa60",
+      "value": "https://example.com/research/index.html",
+      "x_url_attributes": {
+        "url_families": [
+          "njRAT",
+          "testMalwareFamily"
+        ],
+        "indicator_type": "campaign_id",
+        "relations_count": "20",
+        "malicious_confidence": "high"
+      }
+    },
+    "8": {
+      "type": "software",
+      "id": "software--a1827f6d-ca53-5605-9e93-4316cd22a00a",
+      "name": "Word",
+      "x_software_attributes": {
+        "software_families": [
+          "njRAT",
+          "testMalwareFamily"
+        ],
+        "indicator_type": "campaign_id",
+        "relations_count": "20",
+        "malicious_confidence": "high"
+      }
+    },
+    "9": {
+      "type": "windows-registry-key",
+      "spec_version": "2.1",
+      "id": "windows-registry-key--9d60798d-4e3e-5fe4-af8a-0e4986f0f90b",
+      "x_windows_registry_attributes": {
+        "windows_registry_families": [
+          "njRAT",
+          "testMalwareFamily"
+        ],
+        "indicator_type": "campaign_id",
+        "relations_count": "20",
+        "malicious_confidence": "high"
+      }
+    }
+  },
+  "first_observed": "2021-02-23T06:58:18.944Z",
+  "last_observed": "2021-02-23T06:58:18.944Z",
+  "number_observed": 1
+}
